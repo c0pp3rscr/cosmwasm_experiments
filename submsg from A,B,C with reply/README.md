@@ -1,8 +1,9 @@
 ## Contract A calls Contract B, which then calls contract C, C calls B again (another function, no recursion) . Reply is enabled. The Aim of the experiment is to see the order of the reply execution. calls ~ submsg
-
+```
   -->   -->  
 A     B     C
         <-- 
+```
 
 ## RESULTS
 ```
